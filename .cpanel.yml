@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/esokhaic/test.esokhai.com/
+    - /bin/cp * $DEPLOYPATH
